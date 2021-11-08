@@ -23,7 +23,7 @@
     "build-storybook": "build-storybook"
   },
   "lint-staged": {
-    "./src/**/*.{ts,js,jsx,tsx}": [
+    "./src/**/*.{ts,js,jsx,tsx}, !src/stories/*.{ts,js,jsx,tsx}": [
       "yarn lint --fix",
       "yarn format"
     ]
