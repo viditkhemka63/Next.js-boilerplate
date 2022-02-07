@@ -16,4 +16,18 @@ const lightTheme = createTheme({
   },
 });
 
-export { lightTheme };
+const darkTheme = createTheme({
+  palette: {
+    primary: {
+      main: '#556cd6',
+    },
+    secondary: {
+      main: '#19857b',
+    },
+    error: {
+      main: red.A400,
+    },
+  },
+});
+
+export { lightTheme, darkTheme };
