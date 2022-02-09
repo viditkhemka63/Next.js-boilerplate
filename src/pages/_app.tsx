@@ -1,9 +1,9 @@
 import Head from 'next/head';
 import { AppProps } from 'next/app';
-import { ReactNode, useState } from 'react';
+import { ReactNode } from 'react';
 
 import { Layout } from '@/components/layouts/layout';
-import { lightTheme } from '@/utils/theme';
+// import { lightTheme } from '@/utils/theme';
 
 import '@/styles/global.scss';
 import createEmotionCache from '@/utils/createEmotionCache';
@@ -24,7 +24,7 @@ export default function MyApp({
   emotionCache = clientSideEmotionCache,
   pageProps,
 }: MyAppProps) {
-  const [themeState, setThemeState] = useState('light');
+  // const [themeState, setThemeState] = useState('light');
   const getLayout =
     Component.getLayout ?? ((page: ReactNode) => <Layout>{page}</Layout>);
 

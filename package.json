@@ -18,7 +18,9 @@
     "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\"",
     "format": "prettier --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\" --write",
     "postinstall": "husky install",
+    "export": "next export",
     "commit": "cz"
+    
   },
   "//": "Excluding storybook path in commit lint stage.",
   "lint-staged": {

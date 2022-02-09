@@ -9,6 +9,9 @@
     "react/jsx-props-no-spreading": "off",
     "react/no-unused-prop-types": "off",
     "react/require-default-props": "off",
+    "quotes": [ "error", "double"],
+    "@typescript-eslint/quotes": [ "error", "double"],
+
     "import/extensions": [
       "error",
       "ignorePackages",
@@ -19,7 +22,8 @@
         "jsx": "never"
       }
     ],
-    "quotes": "off",
+   
+    // "quotes": "off",
     "jsx-a11y/anchor-is-valid": [
       "error",
       {
